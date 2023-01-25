@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{c93165ca-8787-43bf-8534-aa7b4338f01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{ec50efd2-31c0-4320-b8d7-d341e6b12936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{82b07f82-40df-437b-93a1-767c5adf8dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{4013ec9f-d165-4f1b-b5a4-25037f9f97b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventSystem">
+      <UniqueIdentifier>{63dc8cba-6ef5-4717-b02a-6a33948d818f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rect">
+      <UniqueIdentifier>{5eba8e3b-9b31-4769-9800-5651950fdab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{152182cc-44ad-48ee-a4ac-f06328a6d334}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Rect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

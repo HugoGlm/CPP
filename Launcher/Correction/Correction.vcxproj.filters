@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{71871355-6c6b-467f-a024-db016ef6d88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d7309e69-dc45-47e9-9c41-3ecad1bedd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{d69cdc06-7894-4956-892c-4d354d5d3dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{7871ae93-a9b7-4067-9083-c193b9942b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Item">
+      <UniqueIdentifier>{414883f2-c281-4f7f-abd3-e5d6707b573d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games">
+      <UniqueIdentifier>{fb82c770-e7ab-4516-84f0-b76fd4f0f5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Morpion">
+      <UniqueIdentifier>{17d4e541-804b-4fe4-97b1-fb90565c559a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Morpion\Board">
+      <UniqueIdentifier>{03b17b60-1270-404e-9401-01ef4fee3374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Morpion\AI">
+      <UniqueIdentifier>{c2bbb81f-aac0-437e-a00a-22755a9f08cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\FlappyBird">
+      <UniqueIdentifier>{96b2029f-baeb-4751-9487-335b668be661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\FlappyBird\Map">
+      <UniqueIdentifier>{021f28bd-7505-4472-adf6-a9f103aa6651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\FlappyBird\Player">
+      <UniqueIdentifier>{e4a5a959-4c7b-4065-b89e-414c00ae50a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\FlappyBird\Pipe">
+      <UniqueIdentifier>{6acba84c-5ede-4f7d-8e0e-4dba6e20bdbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\FlappyBird\Score">
+      <UniqueIdentifier>{bfe1b121-a035-496e-a303-8e9cc0f24b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\DynoGame">
+      <UniqueIdentifier>{1a8f6a80-652f-4e0f-a95e-309d4ef71624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\DynoGame\Map">
+      <UniqueIdentifier>{3be5ce6b-eec6-431a-b7f1-67946fdc892c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\DynoGame\Pipe">
+      <UniqueIdentifier>{1c525568-c4d0-4e66-ad88-b44b2a741f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\DynoGame\Score">
+      <UniqueIdentifier>{49734cdc-3c4e-43bb-ae15-a16224659f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\DynoGame\Player">
+      <UniqueIdentifier>{333b90fb-86a4-4eef-b494-5599d7ab98f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Interface">
+      <UniqueIdentifier>{a8c65b76-fb58-409a-9b59-74dfa20fddca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Correction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="LauncherItem.cpp">
+      <Filter>Launcher\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionGame.cpp">
+      <Filter>Games\Morpion</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionBoard.cpp">
+      <Filter>Games\Morpion\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionAI.cpp">
+      <Filter>Games\Morpion\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyBird.cpp">
+      <Filter>Games\FlappyBird</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyMap.cpp">
+      <Filter>Games\FlappyBird\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyPlayer.cpp">
+      <Filter>Games\FlappyBird\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyPipe.cpp">
+      <Filter>Games\FlappyBird\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyScore.cpp">
+      <Filter>Games\FlappyBird\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="DynoGame.cpp">
+      <Filter>Games\DynoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DynoMap.cpp">
+      <Filter>Games\DynoGame\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DynoPipe.cpp">
+      <Filter>Games\DynoGame\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="DynoPlayer.cpp">
+      <Filter>Games\DynoGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DynoScore.cpp">
+      <Filter>Games\DynoGame\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LauncherItem.h">
+      <Filter>Launcher\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionGame.h">
+      <Filter>Games\Morpion</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionBoard.h">
+      <Filter>Games\Morpion\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionAI.h">
+      <Filter>Games\Morpion\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyBird.h">
+      <Filter>Games\FlappyBird</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyMap.h">
+      <Filter>Games\FlappyBird\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>Games\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyPlayer.h">
+      <Filter>Games\FlappyBird\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyPipe.h">
+      <Filter>Games\FlappyBird\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyScore.h">
+      <Filter>Games\FlappyBird\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="DynoGame.h">
+      <Filter>Games\DynoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DynoMap.h">
+      <Filter>Games\DynoGame\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DynoPipe.h">
+      <Filter>Games\DynoGame\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="DynoPlayer.h">
+      <Filter>Games\DynoGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DynoScore.h">
+      <Filter>Games\DynoGame\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

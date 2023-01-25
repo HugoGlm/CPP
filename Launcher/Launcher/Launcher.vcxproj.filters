@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{675bf060-c343-45c1-bd4a-a30222f63974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuItems">
+      <UniqueIdentifier>{13cf3674-ba01-412a-89fa-627be4c34538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{53bc78c4-989f-4f60-b2b7-17359c489018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e102e057-93a4-49cb-ac30-1159b8ada45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\HomeMenu">
+      <UniqueIdentifier>{141905c3-0bec-4f07-906a-7bf15b765a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Morpion">
+      <UniqueIdentifier>{b184134d-3083-4988-9a60-c9c4be62e701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4272236d-dba0-4cc2-9c18-e695922a5bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Morpion">
+      <UniqueIdentifier>{ade568ab-6c93-4cb8-9c21-23071af53ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Morpion\Player">
+      <UniqueIdentifier>{83ce0d3b-8208-4182-a959-c5ff8e2f3fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Morpion\Jcj">
+      <UniqueIdentifier>{2b268798-6046-4225-a5da-bbc0314fdf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Morpion\Jce">
+      <UniqueIdentifier>{a99e1659-03df-480f-a6be-b2621e589ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Morpion\Jce\AI">
+      <UniqueIdentifier>{e156806a-c984-42de-9fb2-8d0fe44b68ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jce.cpp">
+      <Filter>Game\Morpion\Jce</Filter>
+    </ClCompile>
+    <ClCompile Include="Jcj.cpp">
+      <Filter>Game\Morpion\Jcj</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>MenuItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeMenu.cpp">
+      <Filter>Menu\HomeMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MorpionMenu.cpp">
+      <Filter>Menu\Morpion</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMorpion.cpp">
+      <Filter>Game\Morpion</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMorpion.cpp">
+      <Filter>Game\Morpion\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jce.h">
+      <Filter>Game\Morpion\Jce</Filter>
+    </ClInclude>
+    <ClInclude Include="Jcj.h">
+      <Filter>Game\Morpion\Jcj</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>MenuItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeMenu.h">
+      <Filter>Menu\HomeMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MorpionMenu.h">
+      <Filter>Menu\Morpion</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMorpion.h">
+      <Filter>Game\Morpion</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMorpion.h">
+      <Filter>Game\Morpion\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
