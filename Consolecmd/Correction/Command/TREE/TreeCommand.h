@@ -1,0 +1,20 @@
+#pragma once
+#include "../ICommand.h"
+
+UCLASS()
+class TreeCommand : public ICommand
+{
+#pragma region methods
+private:
+    void RecursiveDirectory(const std::string& _path, int _index);
+#pragma endregion methods
+#pragma region override
+public:
+    virtual bool Execute(const std::vector<std::string>& _args) override;
+    virtual std::string CommandName() const override;
+    virtual std::string Help() const override;
+    virtual std::string AdvancedHelp() const override;
+#pragma endregion override
+
+};
+
