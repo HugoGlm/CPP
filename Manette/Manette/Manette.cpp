@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Window/GamePad.h"
+#include "GamePad/GamePad.h"
 #include <conio.h>
 #include <format>
 

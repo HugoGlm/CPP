@@ -18,12 +18,12 @@
     <ClCompile Include="Manette.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Window\GamePad.cpp">
+    <ClCompile Include="GamePad\GamePad.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Window\GamePad.h">
+    <ClInclude Include="GamePad\GamePad.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -130,10 +130,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Manette.cpp" />
-    <ClCompile Include="Window\GamePad.cpp" />
+    <ClCompile Include="GamePad\GamePad.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Window\GamePad.h" />
+    <ClInclude Include="GamePad\GamePad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
